@@ -110,23 +110,21 @@ Find me on
 🔗 **LinkedIn:** [Prabhav Agrawal](https://www.linkedin.com/in/prabhav-agrawal-415b83309)  
 
 
+## Candid Thoughts on This Project
+This project marks one of my first deep dives into Generative AI, and the experience has been incredibly eye-opening.
 
-## Candid Prabhav
+-So far, I have worked exclusively with pre-trained models, as I currently lack access to sufficient trainable data for fine-tuning.
+-The computational resources required for running these models are extensive. Thanks to 3 hours and 40 minutes of Google Colab’s T4 GPU access, I was able to bring this project to its current state.
+-Through this, I also discovered how poorly optimized these models are for MPS (Metal Shaders) on Apple Silicon devices, leading to constant memory issues, including a semaphore leakage.
+-The biggest challenge was developing the object placement logic, which I initially struggled with. I relied on insights from GPT, Claude, and other AI models to refine the approach.
+-Despite these efforts, object placement is still far from perfect and remains a key area for future improvements.
+-I attempted to use ControlNet Pipeline to directly place decor items into a generated room, but the results were not satisfactory.
+-Stable Diffusion XL is too resource-intensive to run efficiently on my MacBook Pro 14" (8-core CPU, 14-core GPU, 16GB RAM).
+## Next Steps & Future Plans
+Moving forward, I plan to:
 
-- This is one of my first projects in Generative AI
-- This has been mind opening for me personally 
-- Only used PreTrained Model havent trained any model as of now bcz of the lack of Trainable Data 
-- The amount of resources these need to run are insane
-- Thanks to 3hr 40minutes of Google Colabs T4 Graphic card access I could bring it to run till here 
-- Also got to know how unoptimised these models are for mps (Metal Shaders) on Apple Silicon Devices
-- Got through constant memory issues 1 Semaphore Leakage
-- I would love for more experienced people to come connect teach and grow together
-- I was absolutely blank on how to create the placement logic and have used the help of GPT Claude and some other models
-- Object placement is still Horrible and I need to work on it in future iterations 
-- I tried directly using a ControlNet Pipeline giving my Processed Decor image and asked it to place it in a room and it was terrible honestly 
-- Stable Diffusion XL the model I was trying to run is too big and resource hungry for it to run on at least my Macbook Pro 14in 8c 14c 16GB 
-- Planning to take help of some other models Again Prolly Stable Diffusion 2 1 or SDXL to give them two images of the processed decor item and My depth based AI Generated room with a prompt of Put the Decor Item in a Correct place or something to see how it goes.
-- With time would like to take this project to a level where this could be used for Commercial Marketing Purposes
-- Overall Very intrigued by the project 
-- Would like to Thank Viral Nishar and Studio 11 Productions for giving me this project to work on.
-
+- Experiment with Stable Diffusion 2.1 or SDXL using a two-image approach—one for the processed decor item and another for the AI-generated depth-based room—combined with a refined prompt to enhance object placement accuracy.
+- Optimize the pipeline further to make this solution viable for commercial marketing applications.
+- Continue refining the placement logic to improve realism and adaptability.
+## Acknowledgments
+I would like to express my gratitude to Viral Nishar and Studio 11 Productions for entrusting me with this project. This experience has been both challenging and fascinating, and I look forward to further developing and refining it in future iterations.
