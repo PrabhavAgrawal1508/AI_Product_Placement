@@ -80,7 +80,7 @@ The workflow processes each product image individually through several stages:
 ![Original vase](ExamplePhoto/vase_ex.jpg)
 
 ### Final Placement
-![Vase placed in room](examples/output.jpeg)
+![Vase placed in room](ExamplePhoto/output.jpeg)
 
 
 ## Limitations and Future Improvements
