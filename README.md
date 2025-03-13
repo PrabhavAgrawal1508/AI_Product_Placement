@@ -117,9 +117,9 @@ This project marks one of my first deep dives into Generative AI, and the experi
 - The computational resources required for running these models are extensive. Thanks to 3 hours and 40 minutes of Google Colab’s T4 GPU access, I was able to bring this project to its current state.
 - Through this, I also discovered how poorly optimized these models are for MPS (Metal Shaders) on Apple Silicon devices, leading to constant memory issues, including a semaphore leakage.
 - The biggest challenge was developing the object placement logic, which I initially struggled with. I relied on insights from GPT, Claude, and other AI models to refine the approach.
-- Despite these efforts, object placement is still far from perfect and remains a key area for future improvements.
+- Despite these efforts, object placement still has a lot of room of improvement and remains a key area for future iterations.
 - I attempted to use ControlNet Pipeline to directly place decor items into a generated room, but the results were not satisfactory.
-- Stable Diffusion XL is too resource-intensive to run efficiently on my MacBook Pro 14" (8-core CPU, 14-core GPU, 16GB RAM).
+- Stable Diffusion XL is too resource-intensive to run efficiently on my Personal Computer and even with half precision has Extensive V-RAM Requirements
 ## Next Steps & Future Plans
 Moving forward, I plan to:
 
