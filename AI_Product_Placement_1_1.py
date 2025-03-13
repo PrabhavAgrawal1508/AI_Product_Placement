@@ -18,7 +18,7 @@ device = args.device if args.device else ("cuda" if torch.cuda.is_available() el
 dtype = torch.float16 if device == "cuda" else torch.float32
 print(f"Using device: {device}")
 
-# Load Stable Diffusion XL for Room Generation
+# Load Stable Diffusion  for Room Generation
 sd_pipe = StableDiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1", torch_dtype=dtype,  low_cpu_mem_usage=True).to(device)
 sd_pipe.scheduler = DPMSolverMultistepScheduler.from_config(sd_pipe.scheduler.config)
 
