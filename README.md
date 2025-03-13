@@ -113,13 +113,13 @@ Find me on
 ## Candid Thoughts on This Project
 This project marks one of my first deep dives into Generative AI, and the experience has been incredibly eye-opening.
 
--So far, I have worked exclusively with pre-trained models, as I currently lack access to sufficient trainable data for fine-tuning.
--The computational resources required for running these models are extensive. Thanks to 3 hours and 40 minutes of Google Colab’s T4 GPU access, I was able to bring this project to its current state.
--Through this, I also discovered how poorly optimized these models are for MPS (Metal Shaders) on Apple Silicon devices, leading to constant memory issues, including a semaphore leakage.
--The biggest challenge was developing the object placement logic, which I initially struggled with. I relied on insights from GPT, Claude, and other AI models to refine the approach.
--Despite these efforts, object placement is still far from perfect and remains a key area for future improvements.
--I attempted to use ControlNet Pipeline to directly place decor items into a generated room, but the results were not satisfactory.
--Stable Diffusion XL is too resource-intensive to run efficiently on my MacBook Pro 14" (8-core CPU, 14-core GPU, 16GB RAM).
+- So far, I have worked exclusively with pre-trained models, as I currently lack access to sufficient trainable data for fine-tuning.
+- The computational resources required for running these models are extensive. Thanks to 3 hours and 40 minutes of Google Colab’s T4 GPU access, I was able to bring this project to its current state.
+- Through this, I also discovered how poorly optimized these models are for MPS (Metal Shaders) on Apple Silicon devices, leading to constant memory issues, including a semaphore leakage.
+- The biggest challenge was developing the object placement logic, which I initially struggled with. I relied on insights from GPT, Claude, and other AI models to refine the approach.
+- Despite these efforts, object placement is still far from perfect and remains a key area for future improvements.
+- I attempted to use ControlNet Pipeline to directly place decor items into a generated room, but the results were not satisfactory.
+- Stable Diffusion XL is too resource-intensive to run efficiently on my MacBook Pro 14" (8-core CPU, 14-core GPU, 16GB RAM).
 ## Next Steps & Future Plans
 Moving forward, I plan to:
 
